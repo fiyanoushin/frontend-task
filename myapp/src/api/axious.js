@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-  baseURL: "http://localhost:8000/api/",
+  baseURL: "https://task-backend-1-jre1.onrender.com/",
 })
 
 const PUBLIC_URLS = ["login/", "register/", "token/refresh/"]
